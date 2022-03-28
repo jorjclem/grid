@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-column: repeat(5, 1fr);
+    grid-column: repeat(5, 200px);
     grid-row: repeat (10, 50px);
 }
 
@@ -15,7 +15,14 @@
     background-color: #ded8a0;
 }
 .aside {
-    
+    grid-column: 2/6;
+    grid-row: 4/10;
+    background-color: #F5EABD;
+}
+.article {
+    grid-column: 6/6;
+    grid-row: 10/10;
+    background-color: #DECBA0;
 }
 
 
